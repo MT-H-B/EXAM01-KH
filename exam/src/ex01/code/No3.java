@@ -16,7 +16,7 @@ public class No3 {
             myAnswer = scanner.nextInt();
             count++;
 
-            if (myAnswer > answer) {
+            if (myAnswer > answer) { // switch문으로 쓰는게 가독성 면에서 좋음
                 System.out.println("더 작습니다");
             }
             else if (myAnswer < answer) {
