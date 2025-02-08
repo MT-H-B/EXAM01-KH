@@ -10,11 +10,7 @@ public class MyMethod {
     }
 
     public double average(int[] intArray) {
-        int sum = 0;
-        for (int i = 0; i < intArray.length; i++) {
-            sum += intArray[i];
-        }
-        return (double) sum / intArray.length;
+        return (double) sum(intArray) / intArray.length;
     }
 
     public int max(int[] intArray) {
