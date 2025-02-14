@@ -3,6 +3,10 @@ package ex01.code.No8;
 public class Beer extends Food implements Drinkable {
     public int capacity;
 
+    public Beer(int calorie, String origin) {
+        super(calorie, origin);
+    }
+
     public int getCapacity() {
         return capacity;
     }

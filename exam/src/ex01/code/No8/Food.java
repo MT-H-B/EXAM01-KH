@@ -4,6 +4,11 @@ public class Food {
     public int calorie;
     public String origin;
 
+    public Food(int calorie, String origin) {
+        this.calorie = calorie;
+        this.origin = origin;
+    }
+
     public int getCalorie() {
         return calorie;
     }

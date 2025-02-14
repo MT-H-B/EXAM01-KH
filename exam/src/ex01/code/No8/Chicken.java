@@ -3,6 +3,10 @@ package ex01.code.No8;
 public class Chicken extends Food implements Eatable {
     public int number;
 
+    public Chicken (int calorie, String origin) {
+        super(calorie, origin);
+    }
+
     public int getNumber() {
         return number;
     }

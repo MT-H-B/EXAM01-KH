@@ -6,6 +6,13 @@ public class Book {
     public String title;
     public int price;
 
+    public Book(String author, String isbn, String title, int price) {
+        this.author = author;
+        this.isbn = isbn;
+        this.title = title;
+        this.price = price;
+    }
+
     public String getAuthor() {
         return author;
     }
