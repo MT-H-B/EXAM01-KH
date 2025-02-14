@@ -1,4 +1,4 @@
-package ex01.code;
+package ex01.code.No1;
 
 public class No2 {
     public static void main(String[] args) {

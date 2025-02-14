@@ -1,4 +1,4 @@
-package ex01.code;
+package ex01.code.No1;
 
 import java.util.Scanner;
 
