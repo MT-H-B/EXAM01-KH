@@ -1,8 +1,8 @@
 package ex01.code.No8;
 
 public class Food {
-    public int calorie;
-    public String origin;
+    private int calorie;
+    private String origin;
 
     public Food(int calorie, String origin) {
         this.calorie = calorie;

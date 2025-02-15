@@ -1,7 +1,7 @@
 package ex01.code.No7;
 
 public class HeadFirstJava extends Book{
-    public String review;
+    private String review;
 
     public HeadFirstJava (String author, String isbn, String title, int price) {
         super(author, isbn, title, price);

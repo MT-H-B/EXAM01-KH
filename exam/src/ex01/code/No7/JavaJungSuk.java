@@ -1,7 +1,7 @@
 package ex01.code.No7;
 
 public class JavaJungSuk extends Book{
-    public int edition;
+    private int edition;
 
     public JavaJungSuk (String author, String isbn, String title, int price) {
         super(author, isbn, title, price);

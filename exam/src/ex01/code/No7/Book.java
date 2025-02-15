@@ -1,10 +1,10 @@
 package ex01.code.No7;
 
 public class Book {
-    public String author;
-    public String isbn;
-    public String title;
-    public int price;
+    private String author;
+    private String isbn;
+    private String title;
+    private int price;
 
     public Book(String author, String isbn, String title, int price) {
         this.author = author;

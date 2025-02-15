@@ -1,7 +1,7 @@
 package ex01.code.No8;
 
 public class Coffee extends Food implements Drinkable {
-    public int capacity;
+    private int capacity;
 
     public Coffee(int calorie, String origin) {
         super(calorie, origin);
